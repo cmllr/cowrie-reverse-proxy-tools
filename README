@@ -1,0 +1,9 @@
+# cowrie-reverse-proxy-tools
+
+This tool "watches" a given port via `netstat` to protocol the connecting IP's to `tcp.log`.
+
+## TODO
+
+- Proper path settings for `tcp.log` 
+- Some kind of IP map for `cowrie.log`
+- Logrotate
