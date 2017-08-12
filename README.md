@@ -2,8 +2,16 @@
 
 This tool "watches" a given port via `netstat` to protocol the connecting IP's to `tcp.log`.
 
-## TODO
+## Tools
 
+- `cowrie-tcp.log`: Protocol port connectings
+
+### TODO for cowrie-tcp
+ 
 - Proper path settings for `tcp.log` 
-- Some kind of IP map for `cowrie.log`
 - Logrotate
+
+
+## General TODO
+
+- Some kind of IP map for `cowrie.log`
