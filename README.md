@@ -1,10 +1,10 @@
 # cowrie-reverse-proxy-tools
 
-This tool "watches" a given port via `netstat` to protocol the connecting IP's to `tcp.log`.
+This tools should help to fix (kind of) the problems when cowrie is operated behind and reverse proxy causing to loose any IP information (because the tunnel do not forward the origin IP properly).
 
 ## Tools
 
-- `cowrie-tcp.log`: Protocol port connectings
+- `cowrie-tcp.log`: Protocol port connections
 
 ### TODO for cowrie-tcp
  
@@ -15,3 +15,7 @@ This tool "watches" a given port via `netstat` to protocol the connecting IP's t
 ## General TODO
 
 - Some kind of IP map for `cowrie.log`
+
+# License
+
+GPLv3
